@@ -1,0 +1,15 @@
+{
+  "name": "fsd-1",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "FSD-1 – Full Stack Development Lab",
+  "scripts": {
+    "deploy:vercel": "node deploy-vercel.js",
+    "clean:readme": "node deploy-vercel.js --sync",
+    "login:vercel": "npx --yes vercel login",
+    "logout:vercel": "npx --yes vercel logout"
+  },
+  "devDependencies": {
+    "vercel": "^66.6.0"
+  }
+}
