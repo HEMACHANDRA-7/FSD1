@@ -8,57 +8,59 @@
 import { execSync, spawnSync } from "child_process";
 import path from "path";
 import fs from "fs";
+import { fileURLToPath } from "url";
 
-const rootDir = process.cwd();
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const rootDir = __dirname;
 
 const projects = [
   {
-    name: "react-conditional-rendering",
+    name: "fsd-react-conditional-rendering",
     dir: "react-conditional-rendering-app/react-conditional-rendering-app-main",
     title: "React Conditional Rendering"
   },
   {
-    name: "react-form-events",
+    name: "fsd-react-form-events",
     dir: "react-form-events-app/react-form-events-app-main",
     title: "React Form Events"
   },
   {
-    name: "react-frontend-crud",
+    name: "fsd-react-frontend-crud",
     dir: "react-frontend-crud-app/react-frontend-crud-app-main",
     title: "React Frontend CRUD"
   },
   {
-    name: "react-html-render",
+    name: "fsd-react-html-render",
     dir: "react_html_render_app/react_html_render_app",
     title: "React HTML Render"
   },
   {
-    name: "react-jsx-render",
+    name: "fsd-react-jsx-render",
     dir: "react_jsx_render_app/react_jsx_render_app",
     title: "React JSX Render"
   },
   {
-    name: "react-nested-components",
+    name: "fsd-react-multiple-components",
     dir: "react_multiple_components/react_multiple_components",
-    title: "React Nested Components"
+    title: "React Multiple Components"
   },
   {
-    name: "react-rendering-lists",
+    name: "fsd-react-rendering-lists",
     dir: "react-rendering-lists-app/react-rendering-lists-app-main",
     title: "React Rendering Lists"
   },
   {
-    name: "react-state-events",
+    name: "fsd-react-state-events",
     dir: "react-state-events-app/react-state-events-app-main",
     title: "React State Events"
   },
   {
-    name: "react-router",
+    name: "fsd-react-router",
     dir: "react-router-app/react-router-app-main",
     title: "React Router"
   },
   {
-    name: "mern-crud-frontend",
+    name: "fsd-mern-frontend",
     dir: "mern-crud-app/mern-crud-app-main/frontend",
     title: "MERN CRUD Frontend"
   }
@@ -72,15 +74,19 @@ function echoLog(msg) {
   console.log(msg);
 }
 
+const vercelBin = fs.existsSync(path.resolve(rootDir, "node_modules/.bin/vercel.cmd"))
+  ? `"${path.resolve(rootDir, "node_modules/.bin/vercel.cmd")}"`
+  : "vercel";
+
 // 1. Verify Vercel CLI login
 console.log("Checking Vercel CLI login status...");
-let whoami = spawnSync("npx", ["--yes", "vercel", "whoami"], { encoding: "utf-8", shell: true });
+let whoami = spawnSync(vercelBin, ["whoami"], { encoding: "utf-8", shell: true });
 
 if (whoami.status !== 0) {
   console.log("⚠️ You are not logged in to Vercel CLI.");
   console.log("Please authenticate below (press Enter on default prompt):\n");
-  spawnSync("npx", ["--yes", "vercel", "login"], { stdio: "inherit", shell: true });
-  whoami = spawnSync("npx", ["--yes", "vercel", "whoami"], { encoding: "utf-8", shell: true });
+  spawnSync(vercelBin, ["login"], { stdio: "inherit", shell: true });
+  whoami = spawnSync(vercelBin, ["whoami"], { encoding: "utf-8", shell: true });
   if (whoami.status !== 0) {
     console.error("\n❌ Login was not completed. Please run: npm run login:vercel\n");
     process.exit(1);
@@ -159,7 +165,10 @@ for (let i = 0; i < projects.length; i++) {
   }
 
   try {
-    const deployCmd = `npx --yes vercel "${targetPath}" --project "${p.name}" --create-if-missing --prod --yes`;
+    const vercelBin = fs.existsSync(path.resolve(rootDir, "node_modules/.bin/vercel.cmd"))
+      ? `"${path.resolve(rootDir, "node_modules/.bin/vercel.cmd")}"`
+      : "npx --yes vercel";
+    const deployCmd = `${vercelBin} "${targetPath}" --name "${p.name}" --project "${p.name}" --create-if-missing --prod --yes`;
     const output = execSync(deployCmd, { encoding: "utf-8" });
     
     const match = output.match(/https:\/\/[a-zA-Z0-9.-]+\.vercel\.app/);

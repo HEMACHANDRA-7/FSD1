@@ -86,16 +86,16 @@ Click any **Deploy** button below to deploy an individual application directly i
 
 | No. | Experiment Name | Live Demo | 1-Click Deploy to Vercel | Framework |
 |---:|---|---|:---:|:---:|
-| 1 | React Conditional Rendering | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-conditional-rendering&root-directory=react-conditional-rendering-app%2Freact-conditional-rendering-app-main) | Vite / React |
-| 2 | React Form Events | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-form-events&root-directory=react-form-events-app%2Freact-form-events-app-main) | Vite / React |
-| 3 | React Frontend CRUD | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-frontend-crud&root-directory=react-frontend-crud-app%2Freact-frontend-crud-app-main) | Vite / React |
-| 4 | React HTML Render | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-html-render&root-directory=react_html_render_app%2Freact_html_render_app) | Vite / React |
-| 5 | React JSX Render | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-jsx-render&root-directory=react_jsx_render_app%2Freact_jsx_render_app) | Vite / React |
-| 6 | React Nested Components | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-nested-components&root-directory=react_multiple_components%2Freact_multiple_components) | Vite / React |
-| 7 | React Rendering Lists | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-rendering-lists&root-directory=react-rendering-lists-app%2Freact-rendering-lists-app-main) | Vite / React |
-| 8 | React State Events | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-state-events&root-directory=react-state-events-app%2Freact-state-events-app-main) | Vite / React |
-| 9 | React Router | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=react-router&root-directory=react-router-app%2Freact-router-app-main) | Vite / React |
-| 10 | MERN CRUD Frontend | [Live Demo](https://vercel.com) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=mern-crud-frontend&root-directory=mern-crud-app%2Fmern-crud-app-main%2Ffrontend) | Vite / React |
+| 1 | React Conditional Rendering | [Live Demo](https://fsd-react-conditional-rendering-six.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-conditional-rendering&root-directory=react-conditional-rendering-app%2Freact-conditional-rendering-app-main) | Vite / React |
+| 2 | React Form Events | [Live Demo](https://fsd-react-form-events-mu.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-form-events&root-directory=react-form-events-app%2Freact-form-events-app-main) | Vite / React |
+| 3 | React Frontend CRUD | [Live Demo](https://fsd-react-frontend-crud-xi.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-frontend-crud&root-directory=react-frontend-crud-app%2Freact-frontend-crud-app-main) | Vite / React |
+| 4 | React HTML Render | [Live Demo](https://fsd-react-html-render-ruddy.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-html-render&root-directory=react_html_render_app%2Freact_html_render_app) | Vite / React |
+| 5 | React JSX Render | [Live Demo](https://fsd-react-jsx-render-eight.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-jsx-render&root-directory=react_jsx_render_app%2Freact_jsx_render_app) | Vite / React |
+| 6 | React Multiple Components | [Live Demo](https://fsd-react-multiple-components-vert.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-multiple-components&root-directory=react_multiple_components%2Freact_multiple_components) | Vite / React |
+| 7 | React Rendering Lists | [Live Demo](https://fsd-react-rendering-lists-sable.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-rendering-lists&root-directory=react-rendering-lists-app%2Freact-rendering-lists-app-main) | Vite / React |
+| 8 | React State Events | [Live Demo](https://fsd-react-state-events-one.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-state-events&root-directory=react-state-events-app%2Freact-state-events-app-main) | Vite / React |
+| 9 | React Router | [Live Demo](https://fsd-react-router-black.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-react-router&root-directory=react-router-app%2Freact-router-app-main) | Vite / React |
+| 10 | MERN CRUD Frontend | [Live Demo](https://fsd-mern-frontend-zeta.vercel.app) | [![Deploy](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FHEMACHANDRA-7%2FFSD1&project-name=fsd-mern-frontend&root-directory=mern-crud-app%2Fmern-crud-app-main%2Ffrontend) | Vite / React |
 
 ---
 
@@ -146,15 +146,16 @@ This repository includes a pre-configured `render.yaml` Blueprint file that depl
 
    [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/HEMACHANDRA-7/FSD1)
 
-4. Render will automatically parse `render.yaml` and show the 8 web services ready to deploy:
-   - `file-persistent-app` (Products File Persistence API)
-   - `mongodb-express-app` (Books MongoDB Express API)
-   - `mongodb-mongoose-movies-app` (Movies Mongoose API)
-   - `mvc-auth-app` (User Auth MVC API)
-   - `mvc-express-app` (Movies MVC API)
-   - `template-engine-ejs-app` (EJS Product Catalog)
-   - `express-middleware-api` (Middleware Logger API)
-   - `mern-crud-backend` (Posts API for MERN Frontend)
+4. Render will automatically parse `render.yaml` and show the 9 web services ready to deploy:
+   - `fsd-file-persistent-app` (Products File Persistence API)
+   - `fsd-non-persistent-app` (Non-Persistent API)
+   - `fsd-express-middleware-api` (Middleware Logger API)
+   - `fsd-mongodb-express-app` (Books MongoDB Express API)
+   - `fsd-mongoose-express-app` (Movies Mongoose API)
+   - `fsd-mvc-auth-app` (User Auth MVC API)
+   - `fsd-mvc-express-app` (Movies MVC API)
+   - `fsd-template-engine-ejs-app` (EJS Product Catalog)
+   - `fsd-mern-backend` (Posts API for MERN Frontend)
 
 5. Click **Apply**.
 6. Render will build and deploy all services concurrently.
@@ -177,6 +178,7 @@ If you want to deploy a single backend service manually:
 | Service | Root Directory | Build Command | Start Command | Required Environment Variables |
 |---|---|---|---|---|
 | **File Persistent App** | `File-persistent-app` | `npm install` | `node server.js` | `PORT=10000` |
+| **Non-Persistent App** | `Non-persistent-app` | `npm install` | `node server.js` | `PORT=10000` |
 | **MongoDB Express App** | `mongodb-express-app` | `npm install` | `node server.js` | `PORT=10000`<br>`MONGO_URL=mongodb+srv://...`<br>`DB_NAME=booksDB` |
 | **Mongoose Movies App** | `mongoose_express_app` | `npm install` | `node server.js` | `PORT=10000`<br>`MONGO_URL=mongodb+srv://...`<br>`DB_NAME=movieDB` |
 | **MVC Auth App** | `mvc_auth_app` | `npm install` | `node server.js` | `PORT=10000`<br>`MONGO_URL=mongodb+srv://...`<br>`DB_NAME=authDB`<br>`JWT_SECRET=default_jwt_secret_dev_key_12345` |
